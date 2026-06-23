@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://smart-tourist-safety-monitoring-l7j0.onrender.com/api',
 });
 
 API.interceptors.request.use((config) => {
